@@ -2,7 +2,7 @@ package Day_5;
 
 import java.util.Scanner;
 
-public class NumberTriangleVerticallyFlipped {
+public class AlphabetTriangleVerticallyFlipped {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter no:");
@@ -13,7 +13,7 @@ public class NumberTriangleVerticallyFlipped {
             }
             {
                 for(int k=1;k<=i;k++){ //vertically star triangle loop
-                    System.out.print(k +" ");
+                    System.out.print((char)('A'+i-1) +" ");
                 }
             }
             System.out.println( );

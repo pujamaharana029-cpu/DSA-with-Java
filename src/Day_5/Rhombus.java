@@ -2,7 +2,7 @@ package Day_5;
 
 import java.util.Scanner;
 
-public class NumberTriangleVerticallyFlipped {
+public class Rhombus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter no:");
@@ -12,8 +12,8 @@ public class NumberTriangleVerticallyFlipped {
                 System.out.print(" "+" ");
             }
             {
-                for(int k=1;k<=i;k++){ //vertically star triangle loop
-                    System.out.print(k +" ");
+                for(int k=1;k<=n;k++){ //vertically star square loop
+                    System.out.print("*" +" ");
                 }
             }
             System.out.println( );

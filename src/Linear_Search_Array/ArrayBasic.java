@@ -12,6 +12,7 @@ public class ArrayBasic {
         arr[0]=3;
         arr[1]=6;
         arr[2]=-9;
-        arr[4]=2;
+        arr[3]=2;
+        System.out.println(arr[2]);
     }
 }

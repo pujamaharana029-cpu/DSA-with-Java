@@ -22,8 +22,9 @@ public class InputArray {
         }
         //output print
         for(int i=0;i<7;i++){
-            System.out.println(Bird[i] +" ");
-            System.out.print(2*Bird[i] +" ");
+          //  System.out.print(Bird[i] +" ");
+           System.out.print(2*Bird[i] +" ");
         }
+        System.out.println( );
     }
 }
